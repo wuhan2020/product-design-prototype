@@ -9,57 +9,54 @@
 				margin: 0;
 			}		
 			div{
-				width: 1200px;		
+				width: 400px;		
 				margin: auto;
 			}
 
 			
 			#register{
-				overflow: hidden;		 
+				/* margin-top: 50px; */
+				overflow: hidden;
 				background-color: #5D8AA6;
-				padding-top: 100px;
+				background-image: url(img/register1.png);
+				background-size: 30%;
+				background-repeat: no-repeat;
+				background-position: left bottom;
+			}
+			
+			#register2{
+				height: 500px;	
+				background-image: url(img/register2.png);
+				background-size: 30%;
+				background-repeat: no-repeat;
+				background-position: right bottom;
 				position: relative;
 			}
 			
-			#register .register1{
-				float: left;
-				width: 30%;
-				margin-top: 158px;
-			}
-			
-			#register .register2{
-				float: right;
-				width: 40%;
-			}
-			
 			#register h1{
-				/* float: left; */
-				position: absolute;
 				color: #FFFFFF;
 				font-size: 120px;
-				left: 10%;
-				top: 5%;
+				float: left;
+				margin-left: 5%;
+			}
+			
+			
+			
+			#register h3{
+				position: absolute;
+				top: 35%;
+				right: 10%;
+				color: #FF6440;
+				font-size: 40px;	
 			}
 			
 			#register h2{
-				display: block;
 				position: absolute;
+				top: 60%;
 				color: #4A4A4A;
 				font-size: 60px;
-				width: 50%;
-				left: 25%;
-				top: 60%;
-				/* 文字居中 */
-				text-align: center;	
-			
-				
-			}
-			#register h3{
-				position: absolute;
-				color: #FF6440;
-				left: 55%;
-				top: 35%;
-				font-size: 40px;	
+				width: 100%;
+				text-align: center;		
 			}
 			
 			#register button{
@@ -70,29 +67,27 @@
 				font-size: 50px;
 				background-color: #FF6440;
 				width: 30%;
-				/* 设置边角弧度 */
-				/* border-radius: 10%; */
 			}
 			
 			
 			#hospital{
-				height: 380px;
 				background-image: url(img/hospital1.jpg);
 				background-size: cover;
 				color: #FFFFFF;
-				font-size: 30px;
+				font-size: 1.875rem;
 				text-align: right;
+				width: 100%;
+				overflow: hidden;
 			}
 			
 			#hospital p{
-				/* margin-left: 500px; */
-				/* position: absolute; */
-				/* line-height: 100px; */
-				/* */
-				padding-top: 80px;
-				margin-right: 50px; 
-				margin-left: 450px;
-			
+				width:70%;
+				height: 500px;				
+				float:right;
+				margin-right: 5%;
+				display: flex;
+				/*实现垂直居中*/
+				align-items: center;		
 			}
 			
 			#software{
@@ -103,21 +98,19 @@
 			}
 			
 			#software img{
-				height: 500px;
+				width: 30%;
 				float: right;
 			}
 			
 			#software .software1{
+				margin-top: 100px;
+				margin-left: 30px;
 				color: #ff6440;
-				padding-top: 100px;
-				margin-right: 10px; 
-				margin-left: 200px;
 			}
 			
 			#software p{
-				padding-top: 50px;
-				margin-right: 500px; 
-				margin-left: 50px;
+				margin-top: 50px;
+				margin-left: 30px;
 				font-size: 25px;
 			}
 			
@@ -159,11 +152,12 @@
 				
 			}
 			
+			
+			
+			
 			#hopeful {
-				position: relative;
-				height: 500px;
-				/* background-color: #5D8AA6; */
-				margin-top: 100px;
+				overflow: hidden;
+				margin-top: 20px;
 			}
 			
 			#hopeful img{
@@ -174,48 +168,50 @@
 			}
 			
 			#hopeful div{
-				position: absolute;
-				width: 350px;
+				/* position: absolute; */
+				width: 30%;
 				height: 350px;
 				border-radius: 10%;
+				float: left;
+				margin: 50px 10px 0 10px;
 			}
 			
 			#hopeful .ho1{				
-				left: 50px;
-				background-color: #5D8AA6;
-				
+				background-color: #5D8AA6;	
 			}
 		 
 			#hopeful .ho2{
-				left: 425px;
 				background-color: #DA6C53;
 			} 
 			
 			#hopeful .ho3{
-				left: 800px;
 				background-color: #4A4A4A;
 			}
 			
 			
 			#hopeful p{
-			 	width: 310px;
+			 	width: 80%;
 			 	color: #FFFFFF;	
-			 	padding-left: 20px;
+			 	padding-left: 10%;
 			 }
 			 
 			 #hopeful h2{
-				padding-top: 370px;
-			  	padding-left: 50px;
-			  	padding-right: 50px;
+				width:80%;
+			  	padding-left: 10%;
+			  	padding-right: 10%;
+				padding-top: 20px;
 				text-align: center;
-				font-size: 20px;
+				font-size: 20px; 
+				float: left;
 			  }
 			
 			
 			
 			#activity{
-				 position: relative;
-				 height: 550px;
+				 /* position: relative; */
+				 /* height: 550px; */
+				 overflow: hidden;
+				 margin-top: 100px;
 				 /* background-color: #FF6440; */
 				 /* overflow: hidden; */
 			}
@@ -229,20 +225,24 @@
 				margin: auto;
 			}
 			
-			/* #activity .a1,#activity .a2,#activity .a3,#activity .a4{
-				background-color: #008000;	
-				
-			} */
+			#activity .a1,#activity .a2,#activity .a3,#activity .a4{
+				margin-top: 50px;
+				margin-left: 5%;
+				margin-right: 5%;
+				width: 320px;
+				/* background-color: #008000;	 */
+			}
 			
 			#activity img{
 				float: left;
 				margin-top: 10px;
+				
 			}
 			
 			#activity .a{
 				float: right;
 				margin-top: 10px;
-				width: 200px;
+				width: 220px;
 			}
 			
 			#activity p{
@@ -250,39 +250,30 @@
 			}
 			
 			#activity .a1{
-				position: absolute;
-				left: 200px;
-				top: 150px;
-				width: 320px;
 				height: 100px;
+				float: left;			
 			}
 			
-			#activity .a2{
-				position: absolute;
-				left: 650px;
-				top: 150px;
-				width: 320px;
+			#activity .a2{	
 				height: 100px;
+				float: right;
 			}
 			#activity .a3{
-				position: absolute;
-				left: 200px;
-				top: 300px;
-				width: 320px;
 				height: 150px;
+				float: left;
 			}
 			#activity .a4{
-				position: absolute;
-				left: 650px;
-				top: 300px;
-				width: 320px;
 				height: 150px;
+				float: right;
 			}
 			
+			
+			
+			
 			#subject {
-				position: relative;
-				height: 600px;
-				/* background-color: #5D8AA6; */
+				/* height: 600px; */
+				overflow: hidden;
+				margin-top: 100px;
 	
 			}
 			
@@ -295,25 +286,21 @@
 				margin: auto;
 			}
 			
-			#subject .s1{
-				position: absolute;
-				left: 200px;
-				top: 150px;
+			#subject .s1,#subject .s2{					
 				width: 320px;
-				height: 250px;
 				border: #000000 2px solid;
 				border-radius: 10%;
 				overflow: hidden;
+				margin-top: 50px;
+				margin-left: 2%;
+				margin-right: 2%;
 			}
+			#subject .s1{
+				float: left;	
+			}
+					
 			#subject .s2{
-				position: absolute;
-				left: 650px;
-				top: 150px;
-				width: 320px;
-				height: 350px;
-				border: #000000 2px solid;
-				border-radius: 10%;
-				overflow: hidden;
+				float: right;
 			}
 			
 			#subject h2{
@@ -326,6 +313,7 @@
 			#subject ul{
 				margin-top: 20px;
 				margin-left: 40px;
+				margin-bottom: 20px;
 			}
 			
 			#subject li{
@@ -342,6 +330,7 @@
 			#participant {
 				position: relative;
 				height:500px;
+				margin-top: 100px;
 				/* background-color: #5D8AA6; */
 			}
 			
@@ -354,26 +343,24 @@
 				margin: auto;
 			}
 			
-			#participant .p1{
-				position: absolute;
-				left: 200px;
-				top: 120px;
+			#participant .p1,#participant .p2{
 				width: 320px;
 				height: 300px;
-				/* border: #000000 2px solid; */
+				margin-top: 50px;
+				margin-left: 5%;
+				margin-right: 5%;
+			}
+			
+			#participant .p1{
+				float: left;
+
 			}
 			
 			#participant .p2{
-				position: absolute;
-				left: 650px;
-				top: 120px;
-				width: 320px;
-				height: 300px;
-				/* border: #000000 2px solid; */
+				float: right;
 			}
 			
 			#participant h2{
-				/* text-align: center; */
 				padding-top: 10px;
 				padding-bottom: 10px;
 				color: #FF6440;
@@ -392,11 +379,11 @@
 			
 			}
 			
+			
+			
 			#speaker {
-				position: relative;
+				margin-top: 100px;
 				overflow: hidden;
-				/* height: 600px; */
-				/* background-color: #5D8AA6; */
 			}
 			
 			#speaker h1{
@@ -486,13 +473,13 @@
 			
 			#holder div{
 				height: 100px;
-				width: 220px ; 
+				width: 18% ; 
 				display:flex;
 				align-items: center;   
 				justify-content:center; 
 				float:left;
 				/* background-color:#008000; */
-				margin: 20px 10px 0px 10px;
+				margin: 20px 1% 0px 1%;
 			}
 			
 			/* #holder a{
@@ -501,10 +488,8 @@
 			} */
 			
 			#holder img{
-				max-width: 220px;
+				max-width: 100%;
 				max-height: 100px;
-		
-				/* height: 100%; */
 			}
 		
 			
@@ -539,14 +524,16 @@
 	<div>
 	
 		<div id="register">
-			
-			<h1>Hack For <br> WuHan</h1>
-			
+			<div id="register2">
+			<h1>Hack For <br> WuHan</h1>	
+			<h3>时间：3月6-8日 <br> 方式：线上 </h3>
 			<h2>黑客马拉松等你来战</h2>
-			<h3>2月27-28日<br>线上开跑 </h3>
+			
+			
 			<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > 立即报名 </button> </a>
-			<img class="register2"  src="img/register2.png" />
-			<img class="register1"  src="img/register1.png" />
+			<!-- <img class="register1"  src="img/register1.png" /> -->
+			<!-- <img class="register2"  src="img/register2.png" /> -->
+			</div>
 		</div>
 	
 		<div id="hospital">
@@ -588,7 +575,7 @@
 				<p>让你的灵感产生更大的价值，我们会提供专业的技术支持，你将有机会与包括来自斯坦福大学、麻省理工学院、哈佛大学、Andreessen Horowitz、金沙江创业投资、Google、Facebook、ByteDance以及硅谷、中国和印度的初创公司的优秀导师团队互动。</p>	
 			</div>
 			
-			<h2 class="buttom">全国人民共同对抗新冠肺炎疫情的种种，将会成为一段历史，而由此而迸发出的灵感，一定还会持续闪耀。活动中每一个有价值的想法都会得到重视，在帮助抗击疫情的同时，让我们为社会创作更多的共享价值。</h2>
+			<h2>全国人民共同对抗新冠肺炎疫情的种种，将会成为一段历史，而由此而迸发出的灵感，一定还会持续闪耀。活动中每一个有价值的想法都会得到重视，在帮助抗击疫情的同时，让我们为社会创作更多的共享价值。</h2>
 		</div>	
 		
 		
